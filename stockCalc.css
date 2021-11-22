@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: aquamarine;
+}
+
+input {
+  width: 8.5em;
+}
+
+* {
+  text-align: center;
+  font-family: 'Crete Round', serif;
+}
+
+.outerBox {
+  background-color: rgba(26, 131, 145, 0.329);
+  height: 100vh;
+  border-radius: 3em;
+  padding-top: 6em;
+}
+
+h1 {
+  font-family: 'Comforter Brush', cursive;
+}
+
+h1 span {
+  font-family: 'Permanent Marker', cursive;
+  position: relative;
+  top: 15px;
+}
+
+select {
+  background-color: transparent;
+  border-color: white;
+}
+
+input {
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 2em;
+  margin: 3em;
+  padding: 1em 2em 1em 2em;
+}
+/*# sourceMappingURL=stockCalc.css.map */
