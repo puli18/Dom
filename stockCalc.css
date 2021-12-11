@@ -19,7 +19,7 @@ input {
 
 .outerBox {
   background-color: rgba(26, 131, 145, 0.329);
-  height: 100vh;
+  height: auto;
   border-radius: 3em;
   padding-top: 6em;
 }
@@ -56,5 +56,9 @@ button {
   border-radius: 2em;
   margin: 3em;
   padding: 1em 2em 1em 2em;
+}
+
+.out1, .out2, .out3, .out4, .out5, .out6, .out7, .out8 {
+  display: none;
 }
 /*# sourceMappingURL=stockCalc.css.map */
