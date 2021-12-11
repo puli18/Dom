@@ -8,6 +8,20 @@ body {
   background-color: aquamarine;
 }
 
+.mylogo {
+  width: 3cm;
+  height: auto;
+  float: left;
+  margin: .4em 0 0 1em;
+}
+
+.dominosLogo {
+  width: 1.3cm;
+  height: auto;
+  float: right;
+  margin: 1em 2em 0 0;
+}
+
 input {
   width: 8.5em;
 }
@@ -26,10 +40,12 @@ input {
 
 h1 {
   font-family: 'Comforter Brush', cursive;
+  display: inline-block;
+  padding-right: 1em;
 }
 
 h1 span {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Comforter Brush', cursive;
   position: relative;
   top: 15px;
 }
